@@ -310,3 +310,182 @@ Processing by MoviesController#index as HTML
   Rendered movies/index.html.haml within layouts/application (4.4ms)
 Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.3ms)
   [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "Aladdin"], ["rating", "G"], ["release_date", "1992-11-25 00:00:00.000000"], ["created_at", "2017-06-17 19:22:33.355729"], ["updated_at", "2017-06-17 19:22:33.355729"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (3.5ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "The Terminator"], ["rating", "R"], ["release_date", "1984-10-26 00:00:00.000000"], ["created_at", "2017-06-17 19:22:33.362787"], ["updated_at", "2017-06-17 19:22:33.362787"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "When Harry Met Sally"], ["rating", "R"], ["release_date", "1989-07-21 00:00:00.000000"], ["created_at", "2017-06-17 19:22:33.368480"], ["updated_at", "2017-06-17 19:22:33.368480"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "The Help"], ["rating", "PG-13"], ["release_date", "2011-08-10 00:00:00.000000"], ["created_at", "2017-06-17 19:22:33.370543"], ["updated_at", "2017-06-17 19:22:33.370543"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "Chocolat"], ["rating", "PG-13"], ["release_date", "2001-01-05 00:00:00.000000"], ["created_at", "2017-06-17 19:22:33.372325"], ["updated_at", "2017-06-17 19:22:33.372325"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Amelie"], ["rating", "R"], ["release_date", "2001-04-25 00:00:00.000000"], ["created_at", "2017-06-17 19:22:33.374166"], ["updated_at", "2017-06-17 19:22:33.374166"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "2001: A Space Odyssey"], ["rating", "G"], ["release_date", "1968-04-06 00:00:00.000000"], ["created_at", "2017-06-17 19:22:33.375948"], ["updated_at", "2017-06-17 19:22:33.375948"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "The Incredibles"], ["rating", "PG"], ["release_date", "2004-11-05 00:00:00.000000"], ["created_at", "2017-06-17 19:22:33.377823"], ["updated_at", "2017-06-17 19:22:33.377823"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "Raiders of the Lost Ark"], ["rating", "PG"], ["release_date", "1981-06-12 00:00:00.000000"], ["created_at", "2017-06-17 19:22:33.379641"], ["updated_at", "2017-06-17 19:22:33.379641"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Chicken Run"], ["rating", "G"], ["release_date", "2000-06-21 00:00:00.000000"], ["created_at", "2017-06-17 19:22:33.381555"], ["updated_at", "2017-06-17 19:22:33.381555"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Started GET "/movies" for 127.0.0.1 at 2017-06-17 19:22:33 +0000
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.4ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'NC-17', 'R')[0m
+  Rendered movies/index.html.haml within layouts/application (20.1ms)
+Completed 200 OK in 428ms (Views: 410.4ms | ActiveRecord: 0.4ms)
+  [1m[35m (0.3ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Aladdin"], ["rating", "G"], ["release_date", "1992-11-25 00:00:00.000000"], ["created_at", "2017-06-17 19:22:33.846929"], ["updated_at", "2017-06-17 19:22:33.846929"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "The Terminator"], ["rating", "R"], ["release_date", "1984-10-26 00:00:00.000000"], ["created_at", "2017-06-17 19:22:33.849313"], ["updated_at", "2017-06-17 19:22:33.849313"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "When Harry Met Sally"], ["rating", "R"], ["release_date", "1989-07-21 00:00:00.000000"], ["created_at", "2017-06-17 19:22:33.851243"], ["updated_at", "2017-06-17 19:22:33.851243"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "The Help"], ["rating", "PG-13"], ["release_date", "2011-08-10 00:00:00.000000"], ["created_at", "2017-06-17 19:22:33.852971"], ["updated_at", "2017-06-17 19:22:33.852971"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Chocolat"], ["rating", "PG-13"], ["release_date", "2001-01-05 00:00:00.000000"], ["created_at", "2017-06-17 19:22:33.854737"], ["updated_at", "2017-06-17 19:22:33.854737"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "Amelie"], ["rating", "R"], ["release_date", "2001-04-25 00:00:00.000000"], ["created_at", "2017-06-17 19:22:33.856522"], ["updated_at", "2017-06-17 19:22:33.856522"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "2001: A Space Odyssey"], ["rating", "G"], ["release_date", "1968-04-06 00:00:00.000000"], ["created_at", "2017-06-17 19:22:33.858278"], ["updated_at", "2017-06-17 19:22:33.858278"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "The Incredibles"], ["rating", "PG"], ["release_date", "2004-11-05 00:00:00.000000"], ["created_at", "2017-06-17 19:22:33.860108"], ["updated_at", "2017-06-17 19:22:33.860108"]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Raiders of the Lost Ark"], ["rating", "PG"], ["release_date", "1981-06-12 00:00:00.000000"], ["created_at", "2017-06-17 19:22:33.862052"], ["updated_at", "2017-06-17 19:22:33.862052"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "Chicken Run"], ["rating", "G"], ["release_date", "2000-06-21 00:00:00.000000"], ["created_at", "2017-06-17 19:22:33.863840"], ["updated_at", "2017-06-17 19:22:33.863840"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/movies" for 127.0.0.1 at 2017-06-17 19:22:33 +0000
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.3ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'NC-17', 'R')
+  Rendered movies/index.html.haml within layouts/application (5.0ms)
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.3ms)
+  [1m[36m (0.3ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "Aladdin"], ["rating", "G"], ["release_date", "1992-11-25 00:00:00.000000"], ["created_at", "2017-06-17 19:22:33.884182"], ["updated_at", "2017-06-17 19:22:33.884182"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "The Terminator"], ["rating", "R"], ["release_date", "1984-10-26 00:00:00.000000"], ["created_at", "2017-06-17 19:22:33.886584"], ["updated_at", "2017-06-17 19:22:33.886584"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "When Harry Met Sally"], ["rating", "R"], ["release_date", "1989-07-21 00:00:00.000000"], ["created_at", "2017-06-17 19:22:33.889607"], ["updated_at", "2017-06-17 19:22:33.889607"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "The Help"], ["rating", "PG-13"], ["release_date", "2011-08-10 00:00:00.000000"], ["created_at", "2017-06-17 19:22:33.891558"], ["updated_at", "2017-06-17 19:22:33.891558"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "Chocolat"], ["rating", "PG-13"], ["release_date", "2001-01-05 00:00:00.000000"], ["created_at", "2017-06-17 19:22:33.893547"], ["updated_at", "2017-06-17 19:22:33.893547"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Amelie"], ["rating", "R"], ["release_date", "2001-04-25 00:00:00.000000"], ["created_at", "2017-06-17 19:22:33.895455"], ["updated_at", "2017-06-17 19:22:33.895455"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "2001: A Space Odyssey"], ["rating", "G"], ["release_date", "1968-04-06 00:00:00.000000"], ["created_at", "2017-06-17 19:22:33.897247"], ["updated_at", "2017-06-17 19:22:33.897247"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "The Incredibles"], ["rating", "PG"], ["release_date", "2004-11-05 00:00:00.000000"], ["created_at", "2017-06-17 19:22:33.899053"], ["updated_at", "2017-06-17 19:22:33.899053"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "Raiders of the Lost Ark"], ["rating", "PG"], ["release_date", "1981-06-12 00:00:00.000000"], ["created_at", "2017-06-17 19:22:33.900723"], ["updated_at", "2017-06-17 19:22:33.900723"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Chicken Run"], ["rating", "G"], ["release_date", "2000-06-21 00:00:00.000000"], ["created_at", "2017-06-17 19:22:33.902509"], ["updated_at", "2017-06-17 19:22:33.902509"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Started GET "/movies" for 127.0.0.1 at 2017-06-17 19:22:33 +0000
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.4ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'NC-17', 'R')[0m
+  Rendered movies/index.html.haml within layouts/application (5.4ms)
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.4ms)
+Started GET "/movies?ratings[G]=G&ratings[NC-17]=NC-17&ratings[PG]=PG&ratings[PG-13]=PG-13&ratings[R]=R&sort=title" for 127.0.0.1 at 2017-06-17 19:22:33 +0000
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"G", "NC-17"=>"NC-17", "PG"=>"PG", "PG-13"=>"PG-13", "R"=>"R"}, "sort"=>"title"}
+Redirected to http://www.example.com/movies?ratings%5BG%5D=G&ratings%5BNC-17%5D=NC-17&ratings%5BPG%5D=PG&ratings%5BPG-13%5D=PG-13&ratings%5BR%5D=R&sort=title
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+Started GET "/movies?ratings[G]=G&ratings[NC-17]=NC-17&ratings[PG]=PG&ratings[PG-13]=PG-13&ratings[R]=R&sort=title" for 127.0.0.1 at 2017-06-17 19:22:33 +0000
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"G", "NC-17"=>"NC-17", "PG"=>"PG", "PG-13"=>"PG-13", "R"=>"R"}, "sort"=>"title"}
+  [1m[35mMovie Load (0.4ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'NC-17', 'PG', 'PG-13', 'R')  ORDER BY "movies"."title" ASC
+  Rendered movies/index.html.haml within layouts/application (5.3ms)
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.4ms)
+  [1m[36m (0.3ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "Aladdin"], ["rating", "G"], ["release_date", "1992-11-25 00:00:00.000000"], ["created_at", "2017-06-17 19:22:33.952899"], ["updated_at", "2017-06-17 19:22:33.952899"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "The Terminator"], ["rating", "R"], ["release_date", "1984-10-26 00:00:00.000000"], ["created_at", "2017-06-17 19:22:33.955648"], ["updated_at", "2017-06-17 19:22:33.955648"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "When Harry Met Sally"], ["rating", "R"], ["release_date", "1989-07-21 00:00:00.000000"], ["created_at", "2017-06-17 19:22:33.957976"], ["updated_at", "2017-06-17 19:22:33.957976"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "The Help"], ["rating", "PG-13"], ["release_date", "2011-08-10 00:00:00.000000"], ["created_at", "2017-06-17 19:22:33.960084"], ["updated_at", "2017-06-17 19:22:33.960084"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "Chocolat"], ["rating", "PG-13"], ["release_date", "2001-01-05 00:00:00.000000"], ["created_at", "2017-06-17 19:22:33.962353"], ["updated_at", "2017-06-17 19:22:33.962353"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Amelie"], ["rating", "R"], ["release_date", "2001-04-25 00:00:00.000000"], ["created_at", "2017-06-17 19:22:33.964606"], ["updated_at", "2017-06-17 19:22:33.964606"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "2001: A Space Odyssey"], ["rating", "G"], ["release_date", "1968-04-06 00:00:00.000000"], ["created_at", "2017-06-17 19:22:33.967023"], ["updated_at", "2017-06-17 19:22:33.967023"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "The Incredibles"], ["rating", "PG"], ["release_date", "2004-11-05 00:00:00.000000"], ["created_at", "2017-06-17 19:22:33.969222"], ["updated_at", "2017-06-17 19:22:33.969222"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "Raiders of the Lost Ark"], ["rating", "PG"], ["release_date", "1981-06-12 00:00:00.000000"], ["created_at", "2017-06-17 19:22:33.971384"], ["updated_at", "2017-06-17 19:22:33.971384"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Chicken Run"], ["rating", "G"], ["release_date", "2000-06-21 00:00:00.000000"], ["created_at", "2017-06-17 19:22:33.973440"], ["updated_at", "2017-06-17 19:22:33.973440"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Started GET "/movies" for 127.0.0.1 at 2017-06-17 19:22:33 +0000
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.4ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'NC-17', 'R')[0m
+  Rendered movies/index.html.haml within layouts/application (5.0ms)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.4ms)
+Started GET "/movies?ratings[G]=G&ratings[NC-17]=NC-17&ratings[PG]=PG&ratings[PG-13]=PG-13&ratings[R]=R&sort=release_date" for 127.0.0.1 at 2017-06-17 19:22:34 +0000
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"G", "NC-17"=>"NC-17", "PG"=>"PG", "PG-13"=>"PG-13", "R"=>"R"}, "sort"=>"release_date"}
+Redirected to http://www.example.com/movies?ratings%5BG%5D=G&ratings%5BNC-17%5D=NC-17&ratings%5BPG%5D=PG&ratings%5BPG-13%5D=PG-13&ratings%5BR%5D=R&sort=release_date
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+Started GET "/movies?ratings[G]=G&ratings[NC-17]=NC-17&ratings[PG]=PG&ratings[PG-13]=PG-13&ratings[R]=R&sort=release_date" for 127.0.0.1 at 2017-06-17 19:22:34 +0000
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"G", "NC-17"=>"NC-17", "PG"=>"PG", "PG-13"=>"PG-13", "R"=>"R"}, "sort"=>"release_date"}
+  [1m[35mMovie Load (0.3ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'NC-17', 'PG', 'PG-13', 'R')  ORDER BY "movies"."release_date" ASC
+  Rendered movies/index.html.haml within layouts/application (5.7ms)
+Completed 200 OK in 9ms (Views: 7.6ms | ActiveRecord: 0.3ms)
+  [1m[36m (0.3ms)[0m  [1mrollback transaction[0m
