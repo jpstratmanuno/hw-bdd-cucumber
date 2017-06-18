@@ -6,9 +6,11 @@
 
 development:
   adapter: postgresql
+  encoding: unicode
   database: db_development
   pool: 5
-  timeout: 5000
+  username: postgres
+  password:
   host: localhost
 
 # Warning: The database defined as "test" will be erased and
@@ -16,16 +18,20 @@ development:
 # Do not set this db to the same as development or production.
 test: &test
   adapter: postgresql
+  encoding: unicode
   database: db_test
   pool: 5
-  timeout: 5000
+  username: postgres
+  password:
   host: localhost
 
 production:
   adapter: postgresql
+  encoding: unicode
   database: db_production
   pool: 5
-  timeout: 5000
+  username: postgres
+  password:
   host: localhost
 
 cucumber:
